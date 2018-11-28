@@ -1,0 +1,38 @@
+/*
+** main.css
+*/
+
+.teamDice {
+    width: auto;
+    display: inline-block;
+}
+
+.teamDice .dicePool {
+    padding-bottom: 5px;
+}
+
+.dicePool .poolName {
+    width: 150px;
+    display: inline-block;
+}
+
+.dicePool .poolSize {
+    width: 50px;
+    border: none;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.dicePool .poolSize:invalid {
+    border-bottom: 1px dashed black;
+}
+.dicePool .poolSize:valid {
+    color: green;
+    font-weight: bold;
+}
+
+.dicePool .poolSize:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px dashed black;
+}
